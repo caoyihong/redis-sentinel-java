@@ -20,7 +20,7 @@ public class RedisSentinelClientTest {
 	 */
 	public static void setRedisSentinelShardedJedisPool(final RedisSentinel client) {
 		new Thread(new Runnable() {
-			@Override
+//			@Override
 			public void run() {
 				try {
 					int count = 0;
@@ -49,7 +49,7 @@ public class RedisSentinelClientTest {
 	 */
 	public static void setRedisSentinelJedisPool(final RedisSentinel client) {
 		new Thread(new Runnable() {
-			@Override
+//			@Override
 			public void run() {
 				int count = 0;
 				while (true) {

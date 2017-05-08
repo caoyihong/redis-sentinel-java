@@ -58,7 +58,7 @@ public abstract class RedisSentinel {
 	protected void checkRedisSentinelServer(final RedisSentinel redisSentinel, final int againCheckTime, final String... clusterName) {
 		System.out.println("检查redis sentinel 主/从redis服务是否正常,任务开始...");
 		Runnable checkRedisSentinelRunnable = new Runnable() {
-			@Override
+//			@Override
 			public void run() {
 				try {
 					while (true) {

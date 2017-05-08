@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jredis-core-all-a.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/test/lib/jredis-core-all-a.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
